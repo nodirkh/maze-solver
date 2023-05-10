@@ -11,4 +11,4 @@ dfs: dfs.cpp
 all: astar bfs dfs
 clean: 
 	rm -f astar bfs dfs
-PHONY: all
+.PHONY: all
